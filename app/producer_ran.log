@@ -1,0 +1,310 @@
+2025-04-09 12:12:50 - 📤 Sent batch 1 with 10 record IDs.
+2025-04-09 12:12:52 - ❌ Task failed: 'NoneType' object has no attribute 'rstrip'
+2025-04-09 12:20:45 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 12:20:47 - ❌ Task failed: Invalid JSON Parsing
+2025-04-09 12:23:24 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 12:23:30 - ❌ Task failed: Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-jJVLc***********************************************************************************lmwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-09 12:26:29 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 12:26:35 - ❌ Task failed: Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-jJVLc***********************************************************************************lmwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-09 12:33:29 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 12:33:46 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 12:38:18 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 12:38:33 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 14:10:04 - 📤 Sent batch 1 with 3 record IDs.
+2025-04-09 14:10:18 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 14:10:42 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-09 14:10:53 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 14:10:55 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-09 14:11:07 - ❌ Task failed: Error: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 121, 'errmsg': 'Document failed validation', 'errInfo': {'failingDocumentId': ObjectId('67f67ffbe88bf06c5fb5f576'), 'details': {'operatorName': '$jsonSchema', 'schemaRulesNotSatisfied': [{'operatorName': 'properties', 'propertiesNotSatisfied': [{'propertyName': 'user_id', 'details': [{'operatorName': 'bsonType', 'specifiedAs': {'bsonType': 'string'}, 'reason': 'type did not match', 'consideredValue': ['userA', 'userB'], 'consideredType': 'array'}]}]}]}}, 'op': {'user_id': ['userA', 'userB'], 'timestamp': datetime.datetime(2025, 1, 1, 10, 1, tzinfo=tzlocal()), 'engagement_level': 'Low', 'dominant_topic': 'Customer Service', 'avg_sentiment': 'Neutral', 'drop_off_sentiment': 'Neutral', 'error_rate': 0, 'dialog_turns': 2, 'duration': 0, 'resolution': 'Dropped', 'location': {'country': 'N/A', 'state': 'N/A', 'city': 'N/A'}, '_id': ObjectId('67f67ffbe88bf06c5fb5f576')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-04-09 14:13:37 - 📤 Sent batch 1 with 51 record IDs.
+2025-04-09 14:13:37 - 📤 Sent batch 2 with 42 record IDs.
+2025-04-09 14:13:38 - 📤 Sent batch 3 with 32 record IDs.
+2025-04-09 14:13:38 - 📤 Sent batch 4 with 38 record IDs.
+2025-04-09 14:13:39 - 📤 Sent batch 5 with 37 record IDs.
+2025-04-09 14:14:51 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f4343286eb0>
+2025-04-09 14:14:52 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f4343efdb20>
+2025-04-09 14:14:53 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f4343ef8580>
+2025-04-09 14:14:53 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f4343efbd30>
+2025-04-09 14:15:01 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f4343e0beb0>
+2025-04-09 14:15:03 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-09 14:15:12 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 17:04:23 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 17:04:25 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 17:04:28 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 17:04:46 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 17:50:54 - 📤 Sent batch 1 with 51 record IDs.
+2025-04-09 17:50:55 - 📤 Sent batch 2 with 42 record IDs.
+2025-04-09 17:50:55 - 📤 Sent batch 3 with 32 record IDs.
+2025-04-09 17:50:56 - 📤 Sent batch 4 with 38 record IDs.
+2025-04-09 17:50:56 - 📤 Sent batch 5 with 37 record IDs.
+2025-04-09 17:52:10 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fca7c883880>
+2025-04-09 17:52:11 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fca7c8fdb20>
+2025-04-09 17:52:12 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fca7c8f7580>
+2025-04-09 17:52:13 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fca7c8fcd30>
+2025-04-09 17:52:14 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 17:52:17 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-09 17:52:30 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 18:12:38 - 📤 Sent batch 1 with 54 record IDs.
+2025-04-09 18:12:39 - 📤 Sent batch 2 with 48 record IDs.
+2025-04-09 18:12:39 - 📤 Sent batch 3 with 48 record IDs.
+2025-04-09 18:12:40 - 📤 Sent batch 4 with 36 record IDs.
+2025-04-09 18:12:40 - 📤 Sent batch 5 with 30 record IDs.
+2025-04-09 18:12:41 - 📤 Sent batch 6 with 26 record IDs.
+2025-04-09 18:12:41 - 📤 Sent batch 7 with 32 record IDs.
+2025-04-09 18:12:42 - 📤 Sent batch 8 with 44 record IDs.
+2025-04-09 18:12:42 - 📤 Sent batch 9 with 26 record IDs.
+2025-04-09 18:12:43 - 📤 Sent batch 10 with 48 record IDs.
+2025-04-09 18:12:43 - 📤 Sent batch 11 with 8 record IDs.
+2025-04-09 18:13:33 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fb13b2fd880>
+2025-04-09 18:13:34 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fb13b2f9b20>
+2025-04-09 18:13:35 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fb13b2f6580>
+2025-04-09 18:13:36 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fb13b2f7d60>
+2025-04-09 18:13:37 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 18:13:38 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 18:13:39 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 18:13:40 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 18:13:41 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 18:13:42 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 18:13:43 - ❌ Task failed: No matching records found for provided IDs
+2025-04-09 18:13:48 - 📤 Sent batch 1 with 3 record IDs.
+2025-04-09 18:14:06 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 18:14:46 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 18:15:01 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 19:48:22 - 📤 Sent batch 1 with 42 record IDs.
+2025-04-09 19:48:22 - 📤 Sent batch 2 with 56 record IDs.
+2025-04-09 19:48:23 - 📤 Sent batch 3 with 56 record IDs.
+2025-04-09 19:48:23 - 📤 Sent batch 4 with 56 record IDs.
+2025-04-09 19:48:24 - 📤 Sent batch 5 with 56 record IDs.
+2025-04-09 19:48:24 - 📤 Sent batch 6 with 56 record IDs.
+2025-04-09 19:48:25 - 📤 Sent batch 7 with 56 record IDs.
+2025-04-09 19:48:26 - 📤 Sent batch 8 with 42 record IDs.
+2025-04-09 19:48:26 - 📤 Sent batch 9 with 42 record IDs.
+2025-04-09 19:48:27 - 📤 Sent batch 10 with 42 record IDs.
+2025-04-09 19:48:27 - 📤 Sent batch 11 with 28 record IDs.
+2025-04-09 19:48:28 - 📤 Sent batch 12 with 28 record IDs.
+2025-04-09 19:48:28 - 📤 Sent batch 13 with 42 record IDs.
+2025-04-09 19:48:29 - 📤 Sent batch 14 with 43 record IDs.
+2025-04-09 19:48:29 - 📤 Sent batch 15 with 51 record IDs.
+2025-04-09 19:48:30 - 📤 Sent batch 16 with 47 record IDs.
+2025-04-09 19:48:30 - 📤 Sent batch 17 with 46 record IDs.
+2025-04-09 19:48:31 - 📤 Sent batch 18 with 51 record IDs.
+2025-04-09 19:48:31 - 📤 Sent batch 19 with 47 record IDs.
+2025-04-09 19:48:32 - 📤 Sent batch 20 with 48 record IDs.
+2025-04-09 19:48:32 - 📤 Sent batch 21 with 49 record IDs.
+2025-04-09 19:48:33 - 📤 Sent batch 22 with 48 record IDs.
+2025-04-09 19:48:33 - 📤 Sent batch 23 with 45 record IDs.
+2025-04-09 19:48:34 - 📤 Sent batch 24 with 45 record IDs.
+2025-04-09 19:48:34 - 📤 Sent batch 25 with 47 record IDs.
+2025-04-09 19:48:35 - 📤 Sent batch 26 with 39 record IDs.
+2025-04-09 19:48:35 - 📤 Sent batch 27 with 32 record IDs.
+2025-04-09 19:48:36 - 📤 Sent batch 28 with 36 record IDs.
+2025-04-09 19:48:36 - 📤 Sent batch 29 with 41 record IDs.
+2025-04-09 19:48:37 - 📤 Sent batch 30 with 48 record IDs.
+2025-04-09 19:48:37 - 📤 Sent batch 31 with 44 record IDs.
+2025-04-09 19:48:38 - 📤 Sent batch 32 with 37 record IDs.
+2025-04-09 19:48:38 - 📤 Sent batch 33 with 32 record IDs.
+2025-04-09 19:48:39 - 📤 Sent batch 34 with 32 record IDs.
+2025-04-09 19:48:39 - 📤 Sent batch 35 with 37 record IDs.
+2025-04-09 19:52:13 - 📤 Sent batch 1 with 8 record IDs.
+2025-04-09 19:52:28 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 19:52:33 - 📤 Sent batch 1 with 2 record IDs.
+2025-04-09 19:52:50 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-09 20:08:49 - 📤 Sent batch 1 with 4 record IDs.
+2025-04-09 20:09:01 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 06:43:03 - 📤 Sent batch 1 with 46 record IDs.
+2025-04-10 06:43:03 - 📤 Sent batch 2 with 39 record IDs.
+2025-04-10 06:43:04 - 📤 Sent batch 3 with 36 record IDs.
+2025-04-10 06:43:04 - 📤 Sent batch 4 with 43 record IDs.
+2025-04-10 06:43:05 - 📤 Sent batch 5 with 36 record IDs.
+2025-04-10 06:43:45 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f0075eff8b0>
+2025-04-10 06:43:45 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f0075efdb50>
+2025-04-10 06:43:48 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f0075efd5b0>
+2025-04-10 06:43:49 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f0075e80d90>
+2025-04-10 06:44:32 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f0075e10610>
+2025-04-10 10:29:52 - 📤 Sent batch 1 with 46 record IDs.
+2025-04-10 10:29:52 - 📤 Sent batch 2 with 39 record IDs.
+2025-04-10 10:29:53 - 📤 Sent batch 3 with 36 record IDs.
+2025-04-10 10:29:53 - 📤 Sent batch 4 with 43 record IDs.
+2025-04-10 10:29:54 - 📤 Sent batch 5 with 36 record IDs.
+2025-04-10 10:30:40 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f2d8b2fe8b0>
+2025-04-10 10:30:41 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f2d8b2fcb50>
+2025-04-10 10:30:47 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f2d8b2fe5b0>
+2025-04-10 10:30:48 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7f2d8b2ffd60>
+2025-04-10 10:35:16 - 📤 Sent batch 1 with 46 record IDs.
+2025-04-10 10:35:17 - 📤 Sent batch 2 with 39 record IDs.
+2025-04-10 10:35:18 - 📤 Sent batch 3 with 36 record IDs.
+2025-04-10 10:35:18 - 📤 Sent batch 4 with 43 record IDs.
+2025-04-10 10:35:19 - 📤 Sent batch 5 with 36 record IDs.
+2025-04-10 10:36:06 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fadd76fe8b0>
+2025-04-10 10:36:07 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fadd76fcb50>
+2025-04-10 10:36:08 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fadd76fe5b0>
+2025-04-10 10:36:09 - ❌ Task failed: Error: malformed node or string: <ast.Name object at 0x7fadd76fed30>
+2025-04-10 10:36:10 - ❌ Task failed: No matching records found for provided IDs
+2025-04-10 10:36:15 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-10 10:47:03 - 📤 Sent batch 1 with 46 record IDs.
+2025-04-10 10:47:03 - 📤 Sent batch 2 with 39 record IDs.
+2025-04-10 10:47:04 - 📤 Sent batch 3 with 36 record IDs.
+2025-04-10 10:47:04 - 📤 Sent batch 4 with 43 record IDs.
+2025-04-10 10:47:05 - 📤 Sent batch 5 with 36 record IDs.
+2025-04-10 10:47:48 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 10:47:49 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 10:47:50 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 10:47:51 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 10:48:19 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 10:49:34 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-10 10:49:45 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 10:56:09 - 📤 Sent batch 1 with 76 record IDs.
+2025-04-10 10:56:10 - 📤 Sent batch 2 with 79 record IDs.
+2025-04-10 10:56:10 - 📤 Sent batch 3 with 69 record IDs.
+2025-04-10 10:56:11 - 📤 Sent batch 4 with 77 record IDs.
+2025-04-10 10:56:11 - 📤 Sent batch 5 with 80 record IDs.
+2025-04-10 10:56:12 - 📤 Sent batch 6 with 79 record IDs.
+2025-04-10 10:56:12 - 📤 Sent batch 7 with 75 record IDs.
+2025-04-10 10:56:13 - 📤 Sent batch 8 with 70 record IDs.
+2025-04-10 10:56:13 - 📤 Sent batch 9 with 73 record IDs.
+2025-04-10 10:56:14 - 📤 Sent batch 10 with 78 record IDs.
+2025-04-10 10:56:14 - 📤 Sent batch 11 with 82 record IDs.
+2025-04-10 10:56:15 - 📤 Sent batch 12 with 76 record IDs.
+2025-04-10 10:56:15 - 📤 Sent batch 13 with 77 record IDs.
+2025-04-10 10:56:16 - 📤 Sent batch 14 with 74 record IDs.
+2025-04-10 10:56:16 - 📤 Sent batch 15 with 80 record IDs.
+2025-04-10 10:56:17 - 📤 Sent batch 16 with 78 record IDs.
+2025-04-10 10:56:18 - 📤 Sent batch 17 with 82 record IDs.
+2025-04-10 10:56:18 - 📤 Sent batch 18 with 82 record IDs.
+2025-04-10 10:56:19 - 📤 Sent batch 19 with 74 record IDs.
+2025-04-10 10:56:19 - 📤 Sent batch 20 with 78 record IDs.
+2025-04-10 10:56:20 - 📤 Sent batch 21 with 81 record IDs.
+2025-04-10 10:56:20 - 📤 Sent batch 22 with 81 record IDs.
+2025-04-10 10:56:21 - 📤 Sent batch 23 with 80 record IDs.
+2025-04-10 10:56:21 - 📤 Sent batch 24 with 80 record IDs.
+2025-04-10 10:56:22 - 📤 Sent batch 25 with 75 record IDs.
+2025-04-10 10:56:22 - 📤 Sent batch 26 with 82 record IDs.
+2025-04-10 10:56:23 - 📤 Sent batch 27 with 79 record IDs.
+2025-04-10 10:56:23 - 📤 Sent batch 28 with 72 record IDs.
+2025-04-10 10:56:24 - 📤 Sent batch 29 with 63 record IDs.
+2025-04-10 10:56:24 - 📤 Sent batch 30 with 63 record IDs.
+2025-04-10 10:56:25 - 📤 Sent batch 31 with 64 record IDs.
+2025-04-10 10:56:25 - 📤 Sent batch 32 with 75 record IDs.
+2025-04-10 10:56:26 - 📤 Sent batch 33 with 77 record IDs.
+2025-04-10 10:56:26 - 📤 Sent batch 34 with 69 record IDs.
+2025-04-10 10:56:27 - 📤 Sent batch 35 with 55 record IDs.
+2025-04-10 10:56:27 - 📤 Sent batch 36 with 56 record IDs.
+2025-04-10 10:56:28 - 📤 Sent batch 37 with 69 record IDs.
+2025-04-10 10:56:28 - 📤 Sent batch 38 with 61 record IDs.
+2025-04-10 10:56:29 - 📤 Sent batch 39 with 62 record IDs.
+2025-04-10 10:56:29 - 📤 Sent batch 40 with 65 record IDs.
+2025-04-10 10:56:30 - 📤 Sent batch 41 with 70 record IDs.
+2025-04-10 10:56:30 - 📤 Sent batch 42 with 66 record IDs.
+2025-04-10 10:56:31 - 📤 Sent batch 43 with 64 record IDs.
+2025-04-10 10:56:31 - 📤 Sent batch 44 with 65 record IDs.
+2025-04-10 10:56:32 - 📤 Sent batch 45 with 44 record IDs.
+2025-04-10 10:58:49 - ❌ Task failed: Error: Parser must be a string or character stream, not NoneType
+2025-04-10 10:58:50 - ❌ Task failed: Error: Parser must be a string or character stream, not NoneType
+2025-04-10 10:58:51 - ❌ Task failed: Error: Parser must be a string or character stream, not NoneType
+2025-04-10 10:58:59 - ❌ Task failed: Error: Parser must be a string or character stream, not NoneType
+2025-04-10 11:01:16 - ❌ Task failed: Error: Parser must be a string or character stream, not NoneType
+2025-04-10 11:01:41 - ❌ Task failed: Error: Parser must be a string or character stream, not NoneType
+2025-04-10 11:01:42 - ❌ Task failed: Error: Parser must be a string or character stream, not NoneType
+2025-04-10 11:01:43 - ❌ Task failed: Error: Parser must be a string or character stream, not NoneType
+2025-04-10 11:18:01 - 📤 Sent batch 1 with 88 record IDs.
+2025-04-10 11:18:01 - 📤 Sent batch 2 with 90 record IDs.
+2025-04-10 11:18:02 - 📤 Sent batch 3 with 29 record IDs.
+2025-04-10 11:22:23 - ❌ Task failed: The operation timed out.
+2025-04-10 11:26:43 - ❌ Task failed: The operation timed out.
+2025-04-10 11:26:44 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 11:28:31 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-10 11:28:41 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 11:29:47 - 📤 Sent batch 1 with 88 record IDs.
+2025-04-10 11:29:47 - 📤 Sent batch 2 with 90 record IDs.
+2025-04-10 11:29:48 - 📤 Sent batch 3 with 29 record IDs.
+2025-04-10 11:34:09 - ❌ Task failed: The operation timed out.
+2025-04-10 11:35:44 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 11:35:45 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 11:35:51 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-10 11:36:02 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 18:34:12 - 📤 Sent batch 1 with 88 record IDs.
+2025-04-10 18:34:13 - 📤 Sent batch 2 with 90 record IDs.
+2025-04-10 18:34:14 - 📤 Sent batch 3 with 29 record IDs.
+2025-04-10 18:38:34 - ❌ Task failed: The operation timed out.
+2025-04-10 18:39:34 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 18:39:35 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}
+2025-04-10 18:39:41 - 📤 Sent batch 1 with 1 record IDs.
+2025-04-10 18:39:51 - ✅ Task result: {
+  "status": "success",
+  "message": "Records inserted into MongoDB."
+}

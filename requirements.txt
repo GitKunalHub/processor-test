@@ -1,0 +1,10 @@
+celery
+pika
+openai
+pandas
+azure-storage-blob
+dotenv
+datetime
+tiktoken
+pymongo
+redis
